@@ -51,3 +51,10 @@ textarea:focus {
     align-self: flex-end;
     margin-bottom: 23px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .add_task {
+        width: 90%;
+    }
+}

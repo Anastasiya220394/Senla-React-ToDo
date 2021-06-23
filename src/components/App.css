@@ -4,6 +4,11 @@
   top: 230px;
   right: 10px;
 }
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
 
 /*RESPONSIVE*/
 
@@ -14,11 +19,12 @@
     font-size: 12px;
   }
   .img_background {
-      right: 50px;
-      width: 660px;
-      height: 475px;
-    }
+    right: 50px;
+    width: 660px;
+    height: 475px;
   }
+  
+}
 
   @media screen and (max-width: 768px) {
 

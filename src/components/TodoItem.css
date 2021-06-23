@@ -95,3 +95,40 @@
     display: inline;
     background-position: 150px left;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    .btnImportant {
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 14px;
+        right: 55px;
+        display: block;
+    }
+    .delete_btn {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+    .notImportant {
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+        background-color: rgb(194, 194, 194);
+        color: white;
+        text-align: center;
+        letter-spacing: 0.75px;
+        font-weight: 500;
+        line-height: 14px;
+        border-radius: 30px;
+        position: absolute;
+        top: 11px;
+        right: 55px;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+        cursor: pointer;
+        display: block;
+    }
+
+}
