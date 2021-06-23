@@ -1,7 +1,7 @@
 import React from "react";
 import './TodoItem.css';
-import Delete from './images/Delete.svg';
-import Star from './images/star_border.svg';
+import Delete from '../images/Delete.svg';
+import Star from '../images/star_border.svg';
 
 function TodoItem(props) {
     const completedStyle = {

@@ -18,7 +18,7 @@
 }
 
 .search_icon {
-    background: url(./images/Search.svg);
+    background: url(../images/Search.svg);
     position: absolute;
     left: 15px;
     width: 12px;

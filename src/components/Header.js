@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import './Header.css';
-import logo from './images/Color.svg';
+import logo from '../images/Color.svg';
 
 class Header extends Component {
   state = {
