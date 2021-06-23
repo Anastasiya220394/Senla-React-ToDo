@@ -1,22 +1,46 @@
-.App {
-  text-align: center;
+.img_background {
+  content: url(./images/taking_notes.png);
+  position: absolute;
+  top: 230px;
+  right: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+/*RESPONSIVE*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media screen and (max-width: 1024px) {
 
-.App-link {
-  color: #09d3ac;
+  .wrapper {
+    width: 768px;
+    font-size: 12px;
+  }
+  .img_background {
+      right: 50px;
+      width: 660px;
+      height: 475px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .wrapper {
+      width: 575px;
+    }
+    .header {
+        width: 90%;
+    }
+    .img_background {
+      top: 348px;
+      left: 250px;
+      width: 308px;
+      height: 254px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .img_background {
+        left: 30px;
+   }
+   .wrapper {
+        width: 320px;
+  }
 }
